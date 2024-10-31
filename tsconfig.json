@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@react-navigation/*": ["./packages/*/src"],
+      "react-native-drawer-layout": ["./packages/react-native-drawer-layout/src"],
+      "react-native-tab-view": ["./packages/react-native-tab-view/src"],
+    },
+    "composite": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react-jsx",
+    "lib": ["esnext", "dom"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noImplicitUseStrict": false,
+    "noStrictGenericChecks": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "esnext",
+    "verbatimModuleSyntax": true
+  },
+  "exclude": ["packages/*/lib"]
+}

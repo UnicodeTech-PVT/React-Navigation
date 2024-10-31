@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "React Navigation",
+    "owner": "react-navigation",
+    "slug": "react-navigation-example",
+    "description": "Demonstrates the functionality and various capabilities of React Navigation.",
+    "privacy": "public",
+    "version": "1.0.0",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "scheme": "rne",
+    "android": {
+      "package": "org.reactnavigation.example"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "org.reactnavigation.example"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#00000088",
+      "translucent": true
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/a7070fc4-41f3-403d-826d-292b5d868327"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "plugins": [
+      "expo-asset",
+      "expo-localization"
+    ],
+    "extra": {
+      "supportsRTL": true,
+      "forcesRTL": false,
+      "eas": {
+        "projectId": "a7070fc4-41f3-403d-826d-292b5d868327"
+      }
+    }
+  }
+}

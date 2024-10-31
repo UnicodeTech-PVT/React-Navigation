@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig",
+  "references": [
+    { "path": "../core" },
+    { "path": "../routers" },
+    { "path": "../native" },
+    { "path": "../elements" },
+    { "path": "../react-native-drawer-layout" }
+  ],
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "./lib/typescript"
+  }
+}

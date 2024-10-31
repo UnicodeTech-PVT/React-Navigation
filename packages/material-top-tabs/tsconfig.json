@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig",
+  "references": [
+    { "path": "../core" },
+    { "path": "../routers" },
+    { "path": "../native" },
+    { "path": "../react-native-tab-view" },
+    { "path": "../elements" }
+  ],
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "./lib/typescript"
+  }
+}
